@@ -1,0 +1,22 @@
+.sub-gallery {
+  display: flex;
+  //align-items: center;
+  h4, .thumb {
+    margin: 0;
+    padding: 30px;
+    width: 25%;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    font-family: var(--ff-title-primary);
+    font-size: var(--fz-h4);
+    line-height: var(--lh-extra-thin);
+    align-self: center;
+    span {
+      font-family: var(--ff-title-secondary);
+      text-transform: none;
+      display: block;
+    }
+  }
+}
